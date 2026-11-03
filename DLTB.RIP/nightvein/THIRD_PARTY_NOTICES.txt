@@ -1,0 +1,23 @@
+NIGHTVEIN third-party notices
+
+Atom's original contributions are covered by LICENSE.txt. Third-party portions
+retain their own licenses, including any redistribution rights those licenses
+grant. All original notices are preserved verbatim.
+
+Dear ImGui — Omar Cornut and contributors. MIT. IMGUI_LICENSE.txt.
+MinHook — Tsuda Kageyu and contributors. MINHOOK_LICENSE.txt.
+FreeType — David Turner, Robert Wilhelm, Werner Lemberg and contributors.
+FREETYPE_LICENSE.txt. This software is based in part on the work of the FreeType
+Team. Portions are copyright 2023 The FreeType Project. All rights reserved.
+Krub — font authors named in Fonts/OFL-Krub.txt. SIL Open Font License.
+kiero — Rebzzel and contributors. MIT. KIERO_LICENSE.txt.
+EGameTools-derived integration — EricPlayZ and other authors named in
+EGAMETOOLS_LICENSE.txt. Applicable notices are retained in Source/Vendor.
+
+Dependency source/header files and x64 static libraries accompany the NIGHTVEIN
+source. Prebuilt MinHook and FreeType libraries are preserved from the release
+build; they are not represented as Atom's own code.
+
+Dying Light: The Beast, Techland names and game content belong to their
+respective owners. No game executables, DLLs or asset archives are included.
+NIGHTVEIN is an unofficial mod.
