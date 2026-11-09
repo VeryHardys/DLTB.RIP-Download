@@ -1,3 +1,47 @@
+Version 1.2.0
+
+NEW
+- Map tab (interactive world map): your own markers with in-world pins, teleport to a marker, "explored" trail, collectibles and quest items found around you
+  (wide scan 60-600 m, "taken" state read from the game), game locations (safe zones, safe spots, convoys, hives, dark zones, shops, substations, landmarks),
+  your own locations (right click > Add Location), category filters, search, found items shown in grey (optional hide).
+  The map backdrop is drawn from the game's own data: terrain, rivers, roads, buildings. Rotated like the in-game map.
+- 7 interface languages: English, Russian, Polish, Spanish, French, German, Simplified Chinese (Interface > Menu Theme > Language).
+  Long texts shrink / trim to fit; menu search works in both English and the chosen language.
+- New menu design "Cyber" (angled corners, neon line, bracket frame).
+- Wallhack tab: separate ESP for Zombies and Humans, each with its own settings.
+  Box (plain / corners / 3D), fill, glow, skeleton, head dot, health bar, name, distance, snaplines, offscreen arrows, live preview.
+- Skeleton ESP follows the real game bones. Dead enemies lose their ESP at the moment of death; stunned enemies (UV flashlight) keep it.
+- Humans are detected correctly (before, every enemy was treated as a zombie).
+- Radar (now in Wallhack): zombies red, humans orange, with height hints.
+- Pet tab: Clawd (pixel crab) walks along the panels, hops, blinks and watches the cursor. Grab it and throw it. Optional Santa hat.
+- Session Stats: kills, streak, best streak, hits, damage, kills per minute, timer. Bind List. Media Player (current song, cover art, play/pause/skip).
+- Draggable HUD: move watermark, speedometer, keystrokes, bind list, media player, radar and stats while the menu is open. "Reset All Positions" puts them back.
+- Camera & Trail: parkour trail, custom default FOV, smooth zoom.
+- Bind popups with keyboard icons for Long Jump, Unlimited Jumps, Float In Air, Teleport.
+- Rapid Fire option: "Pistols & Revolvers Only".
+- New Year theme: snow on and inside the menu, garland, mini trees, Santa hats, snow on hit and kill effects (Interface > New Year, FX > New Year).
+
+UPDATED MODS
+- Item Extravaganza 1.1.3 (4077 items) and NIGHTVEIN r195 (game build 26402545), both by Atom (Atom0420), included with the author's permission.
+- Instant Search / Pickup now also works on containers, wardrobes, lying items and collectibles without the pickup animation, with pickup sounds.
+- If the game is already running with an older DLTB.RIP runtime loaded, restart the game once.
+
+CHANGED
+- Menu header reworked: search on the left, animated section title on the right.
+- Rapid Fire rewritten: no more stuck button.
+- Overlay FPS limit (default 100) to reduce load on the game.
+- Interface > Layout & Performance: "Hide HUD On Pause / Map" and "Overlay FPS Limit".
+- HUD and mod overlay are hidden while the game menu is open (pause, map, inventory). The mod menu still opens with Insert.
+- Sub-tabs size themselves to their label text.
+- Enemies > Objects sub-tab removed. Debug lines removed from the menu.
+
+FIXED
+- Item Extravaganza items being blocked by the game-code self-check while trainer patches were active.
+- Background darkening in the menu when "No Background" is on; menu flicker; HUD box shimmer.
+- Two checkboxes on one row overlapping; overlapping sub-tab labels.
+- Wallhack skeleton drawing on corpses and on dead enemies.
+- Map labels jittering when the camera turns or the map scrolls.
+
 WHAT'S NEW IN 1.1.0
 
 NEW
